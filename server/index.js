@@ -17,7 +17,6 @@ app.get("/", (req,res) => {
     });
 });
 
-app.use('/', routes)
 app.use('/', routes); 
 
 app.listen(3001, () => {

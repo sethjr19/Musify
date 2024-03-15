@@ -6,6 +6,7 @@ const router = express.Router();
 
 router.get('/getusers', Register.findUser);
 router.post('/register', Register.registerUser);
+router.delete('/deleteuser/:id', Register.deleteUser)
 
 module.exports = router;
 
